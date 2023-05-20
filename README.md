@@ -1,5 +1,5 @@
 # Multi-period tutorial
-A warm welcom! This is a tutorial for using the new multi-period (investment) modelling functionality from oemof.solph `v0.5.1` (upcoming).
+A warm welcome! This is a tutorial for using the new multi-period (investment) modelling functionality from oemof.solph `v0.5.1` (upcoming).
 
 ## Installation
 ### Clone the repository
@@ -12,7 +12,7 @@ Navigate to your folder of choice (use command `cd` to change between directorie
 Now you have all the required files on your local machine.
 
 ### Install dependencies
-To get started, you first need to have the required dependencies. To do so, you can either use the
+To get started, you first need to have the required (python) dependencies. To do so, you can either use the
 `environment.yml` file, in case you are using conda, mamba or another package manager, or directly install from `requirements.txt` file.
 
 **Using conda or a similar package manager (recommended)**
@@ -21,6 +21,7 @@ To create an environment using conda, mamba, etc., navigate to the location wher
 `conda env create -f environment.yml`
 
 This will collect all the dependencies from the YAML file and install them to a new environment called `multi_period_oemof`.
+If you don't have python 3.9 at hand, change the python version in the `environment.yml` file.
 
 To activate this environment, execute:
 
@@ -31,7 +32,7 @@ To simply install with pip, execute
 
 `pip install requirements.txt`
 
-Now you should have all the dependencies.
+In both cases, now you should have all the required dependencies.
 
 **Installing a solver**:
 Make sure you have a solver installed that is compatible with oemof.solph resp. pyomo! Please refer to the [oemof.solph README](https://github.com/oemof/oemof-solph#installing-a-solver) on this.
@@ -51,4 +52,4 @@ from the top level of the repository.
 
 Feel free to use any IDE (e.g. VSCode, PyCharm professional) instead that offers ipynb support.
 
-You are all set. Let's go!
+You are all set. Let's go! :-)

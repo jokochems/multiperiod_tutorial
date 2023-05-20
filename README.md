@@ -46,10 +46,19 @@ To get started, after activating your environment type
 
 which will open jupyterlab in the browser that is configured to do so. Now you can browse on the left hand side and open the file
 
-`multi_period_tutorial.ipynb`
+[`multi_period_tutorial.ipynb`](https://github.com/jokochems/multiperiod_tutorial/blob/main/multi_period_tutorial.ipynb)
 
 from the top level of the repository.
 
 Feel free to use any IDE (e.g. VSCode, PyCharm professional) instead that offers ipynb support.
 
 You are all set. Let's go! :-)
+
+## Troubleshooting
+In case, anything does not work out, please let me know. We'll probably have some time in the tutorial to address issues.
+
+In case you get stuck, there is always the option to just listen and follow along on your computer by looking at a version of the jupyter notebook where I included all the cell outputs.
+
+You can find this version here:
+
+[`multi_period_tutorial-all-outputs.ipynb`](https://github.com/jokochems/multiperiod_tutorial/blob/main/multi_period_tutorial-all-outputs.ipynb)

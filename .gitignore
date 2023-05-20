@@ -1,0 +1,9 @@
+*__pycache__*
+*.ipynb_checkpoints/*
+*.idea
+*.gurobi.*
+*.pyomo.*
+*.cbc*
+*.tmp
+*.log
+*.lp

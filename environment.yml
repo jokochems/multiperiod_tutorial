@@ -1,0 +1,15 @@
+name: multi_period_oemof
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - ipython
+  - pip:
+    - git+https://github.com/oemof/oemof-solph.git@dev
+

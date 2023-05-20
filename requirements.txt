@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+jupyterlab
+notebook
+ipython
+git+https://github.com/oemof/oemof-solph.git@dev
+
